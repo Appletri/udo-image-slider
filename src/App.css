@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: auto;
-  width: 100vw;
+  width: 800px;
   height: 500px;
   flex-wrap: nowrap;
   align-items: center;
