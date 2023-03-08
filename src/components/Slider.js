@@ -1,7 +1,7 @@
 import Slide from "./Slide";
 import prev_icon from '../assets/arrow_back.png';
 import next_icon from '../assets/arrow_forward.png';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Slider(props) {
   const [content, setContent] = useState(props.content);
