@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/udo-image-slider/static/css/main.7c09ad6d.css",
+    "main.js": "/udo-image-slider/static/js/main.217d72e0.js",
+    "index.html": "/udo-image-slider/index.html",
+    "main.7c09ad6d.css.map": "/udo-image-slider/static/css/main.7c09ad6d.css.map",
+    "main.217d72e0.js.map": "/udo-image-slider/static/js/main.217d72e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c09ad6d.css",
+    "static/js/main.217d72e0.js"
+  ]
+}
