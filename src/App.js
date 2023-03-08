@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Slider from "./components/Slider.js"
 
 function App() {
+  const content = [
+    {
+      header: 1,
+      description: 'text',
+      image: "https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png"
+    },
+    {
+      header: 2,
+      description: 'text',
+      image: "https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png"
+    },
+    {
+      header: 3,
+      description: 'text',
+      image: "https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png"
+    },
+    {
+      header: 4,
+      description: 'text',
+      image: "https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png"
+    },
+    {
+      header: 5,
+      description: 'text',
+      image: "https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png"
+    }, 
+  ]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>How to Udo</h1>
+      <Slider content={content}/>
     </div>
   );
 }
